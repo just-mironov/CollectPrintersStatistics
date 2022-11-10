@@ -295,7 +295,7 @@ add-type @"
 "@
     [System.Net.ServicePointManager]::CertificatePolicy = New-Object TrustAllCertsPolicy
     [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-    $Fields = @{"name"="YWRtaW4%3D";"PSW"="SW52aXByaW50MzQ="}
+    $Fields = @{"name"="name";"PSW"="password"}
 
     # что-бы быстрей скачивалось
     $ProgressPreference = 'SilentlyContinue'
